@@ -152,14 +152,42 @@ footer{
 
 #containerFotografia{
 width: 650px;
-height: 450px;
+height: 445px;
 margin: 10px;
 border: 2px solid rgb(126, 119, 119);
 }
 
+#carrousel{
+	margin: 2px;
+	width: 640px;
+	height: 282px;
+	border: 2px solid rgb(126, 119, 119);
+}
+
+
 #containerMusica{
 	margin: 10px;
 	width: 650px;
-	height: 450px;
+	height: 445px;
 	border: 2px solid rgb(126, 119, 119);
+}
+
+.divMusica{
+	margin: 2px;
+	width: 640px;
+	height: 141px;
+	border: 2px solid rgb(126, 119, 119);
+	display: flex;
+	flex-direction: row;
+}
+
+.divMusica p{
+margin-top: 60px;
+margin-left: 40px;
+}
+
+.foto1{
+	margin: 5px;
+	width: 130px;
+	height: 130px;
 }
