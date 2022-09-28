@@ -1,5 +1,5 @@
 *{
-	font-family: 'lobster', 'cursive;';
+	font-family: 'Roboto', sans-serif;
 }
 
 #fotoNombre{
@@ -11,9 +11,9 @@
 }
 
 .foto {
-	height: 100%;
+	height: 615px;
 	width: 50%;
-	padding-left: 50%;
+	padding-left: 49%;
 	object-fit: cover;
 	position: absolute;
 	z-index: -10;
@@ -48,6 +48,11 @@
 	align-items: center;
 }
 
+
+div ul li{
+	list-style-type:  none;
+}
+
 .botonesIndice{
 flex-direction: row;
 flex-wrap: wrap;
@@ -60,7 +65,8 @@ border-radius: 10%;
 width: 280px;
 height: 100px;
 text-align: center;
-padding-top: 20px;
+padding-top: 0px;
+border:rgba(126, 119, 119, 0.575) solid 2px;
 }
 
 footer{
@@ -181,7 +187,7 @@ border: 2px solid rgb(126, 119, 119);
 	flex-direction: row;
 }
 
-.divMusica p{
+.divMusica h3{
 margin-top: 60px;
 margin-left: 40px;
 }
