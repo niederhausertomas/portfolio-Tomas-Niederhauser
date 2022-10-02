@@ -4,13 +4,56 @@ margin: 0;
 padding: 0;	 
 }
 
-.botonesNav{
+.botonesNavContacto{
 text-decoration: none;
 width: 100px;
 font-size: 25px;
 position: fixed;
 top: 2%;
-right: 2%;
+right: 1%;
+opacity: 80%;
+color: rgb(92, 86, 86);
+}
+.botonesNavLenguaje{
+text-decoration: none;
+width: 100px;
+font-size: 25px;
+position: fixed;
+top: 2%;
+right: 39%;
+opacity: 80%;
+color: rgb(92, 86, 86);
+}
+
+.botonesNavStudies{
+text-decoration: none;
+width: 100px;
+font-size: 25px;
+position: fixed;
+top: 2%;
+right: 29%;
+opacity: 80%;
+color: rgb(92, 86, 86);
+}
+
+.botonesNavAbout{
+text-decoration: none;
+width: 120px;
+font-size: 25px;
+position: fixed;
+top: 2%;
+right: 19%;
+opacity: 80%;
+color: rgb(92, 86, 86);
+}
+
+.botonesNavHobbies{
+text-decoration: none;
+width: 100px;
+font-size: 25px;
+position: fixed;
+top: 2%;
+right: 9%;
 opacity: 80%;
 color: rgb(92, 86, 86);
 }
@@ -43,7 +86,7 @@ color: rgb(92, 86, 86);
 	color: rgb(126, 119, 119);
 	Text-shadow: 2px 2px 7px #000; 
 	font-size: 800%;
-	padding-top: 20px;
+	padding-top: 150px;
 }
 
 #user{
@@ -99,7 +142,7 @@ margin: 50px;
 footer{
 	width: 98%;
 	margin: auto;
-	margin-top: 280px;
+	margin-top: 100px;
 	height: 90px;
 	background-color: white;
 	display: flex;
@@ -141,7 +184,6 @@ footer{
 .titulo{
 	margin: 15px auto 5px auto;
 	width: 50%;
-
 	font-size: 50px;
 	text-align: center;
 	color: rgb(126, 119, 119);
@@ -154,12 +196,16 @@ footer{
 
 .estudios{
 	margin: 5px auto 5px auto;
-	padding: 10PX;
-	width: 100%;
+	padding: 15PX;
+	width: 95%;
 	height: 400px;
-	font-size: 50px;
+	font-size: 45px;
 	color: rgb(126, 119, 119);
 	margin: 40px;
+}
+
+.estudios li{
+	margin: 10px 0 10px 0;
 }
 
 
@@ -169,9 +215,7 @@ footer{
 	padding: 20px;
 	padding-right: 150px;
 	font-size:x-large;
-	margin-top: 60px;
-	padding-bottom: 0;
-	margin-bottom: 0;
+	margin: 50px 0 50px 0;
 }
 
 .foto2 {
@@ -234,4 +278,105 @@ margin-left: 40px;
 	margin: 5px;
 	width: 130px;
 	height: 130px;
+}
+
+/*Grid
+
+      <div id="grilla">
+        <section id="sectionHtml">HTML</section>
+        <section id="sectionJavaScript" class="border">JavaScript</section>
+        <section id="sectionReact" class="border">React.JS</section>
+        <aside id="asideCss">CSS</aside>
+        <aside id="asideC++">C++</aside>
+     </div>
+
+*/
+#grilla {
+	margin: 50px 0 50px 0;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 10em 10em 10em; 
+	grid-template-areas:
+	  "sectionHtml sectionHtml asideCss"
+	  "sectionJavaScript sectionJavaScript asideCss"
+	  "sectionReact sectionReact asideC";
+	  grid-row-gap: 1em;
+	  justify-items: stretch;
+	  align-items: stretch;
+}
+
+.sectionHtml{
+	grid-area: sectionHtml;
+}
+
+.asideCss{
+	grid-area: asideCss;
+}
+
+.sectionJavaScript{
+	grid-area: sectionJavaScript;
+}
+
+.sectionReact{
+	grid-area: sectionReact;
+}
+
+.asideC{
+	grid-area: asideC;
+}
+
+.botonesIndice2{
+text-decoration: none;
+color: white;
+font-size: 100px;
+background-color:rgb(126, 119, 119);
+border-radius: 10%;
+border:rgba(126, 119, 119, 0.575) solid 2px;
+position: absolute;
+}
+
+.botonesIndice2:hover{
+border: 2px solid  rgba(126, 119, 119, 0.575);
+background-color:rgb(167, 157, 157);
+}
+
+section img{
+	height: 100%;
+}
+
+aside img{
+	height: 100%;
+}
+
+#columnaCss{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 60px;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 80px 0 80px;
+}
+
+#columnaCssImg{
+	height: 80%;
+	margin: 0 20% 0 20%;
+}
+
+#Cpp{
+	width: 300px;
+	text-align: center;
+	margin: 20px;
+}
+
+#html{
+	width: 700px;
+	text-align: center;
+	margin: 20px;
+}
+
+#JS{
+	width: 600px;
+	text-align: center;
+	margin: 20px;
 }
