@@ -380,3 +380,193 @@ aside img{
 	text-align: center;
 	margin: 20px;
 }
+
+@media only screen and (max-width: 420px){
+	/**{
+	  overflow-x: hidden;
+	}*/
+
+	#fotoNombre{
+		width: 80%;
+		height: 600px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+		padding: 0px;
+	}
+		
+	.foto {
+		height: 615px;
+		width: 90%;
+		padding-left: 0;
+		z-index: -10;
+	}
+		
+	#nombre {
+		text-align: start;
+		color: rgb(126, 119, 119);
+		Text-shadow: 2px 2px 7px #000; 
+		font-size: 200%;
+		padding-top: 500px;
+	}
+		
+	#frontend{
+		padding-top: 10px;
+		padding-bottom: 15px;
+		width: 90%;
+		font-size: 20px;
+		height: 20px;
+	}
+		
+	.botonesIndice{
+		font-size: 30px;
+		margin: 50px;
+	}
+		
+	footer{
+		width: 88%;
+		margin: 0;
+		margin-top: 100px;
+		height: 90px;
+	}
+		
+	.estudios{
+		margin: 10px;
+		padding: 0px;
+		width: 80%;
+		height: 250px;
+		font-size: 20px;
+	}
+		
+	#parrafo{
+		width: 80%;
+		height: 810px;
+		padding: 20px;
+		padding-right: 150px;
+		font-size:20px;
+		margin: 10px 0 10px 0;
+	}
+		
+	.foto2 {
+		margin-top: 10px;
+		height: 0px;
+		width: 0;
+		padding-left: 0;
+	}
+		
+	#contenedorFotografiaMusica{
+		width: 88%;
+		height: 920px;
+		display: block;
+		background-color: aqua;
+		margin: 0;
+		padding: 0;
+	}
+		
+	#containerFotografia{
+		width: 95%;
+		margin: 0px;
+	}
+		
+	#carrousel{
+		margin: 2px;
+		width: 99%;
+	}
+		
+	#containerMusica{
+		margin: 10px;
+		width: 90%;
+		height: 445px;
+	}
+		
+	.divMusica{
+		margin: 2px;
+		width: 98%;
+	}
+		
+	.divMusica h3{
+		margin-top: 60px;
+		margin-left: 0px;
+	}
+	
+	#grilla {
+			margin: 50px 0 50px 0;
+			display: block;
+		}
+		
+	.botonesIndice2{
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+		}
+		
+		.botonesIndice2:hover{
+		border: 2px solid  rgba(126, 119, 119, 0.575);
+		background-color:rgb(167, 157, 157);
+		}
+		
+		#columnaCss{
+			display: flex;
+			flex-direction: column;
+			width: 300px;
+			height: 60px;
+			font-size: 60px;
+			text-align: center;
+			margin: 0 80px 0 80px;
+		}
+		
+		#columnaCssImg{
+			height: 80%;
+			margin: 0 20% 0 20%;
+		}
+		
+		#Cpp{
+			width: 300px;
+			text-align: center;
+			margin: 20px;
+		}
+		
+		#html{
+			width: 700px;
+			text-align: center;
+			margin: 20px;
+		}
+		
+		#JS{
+			width: 600px;
+			text-align: center;
+			margin: 20px;
+		}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and(min-width: 421px)and(max-width: 1023px){
+
+}
+
+@media screen and(min-width: 1024px){
+
+}
