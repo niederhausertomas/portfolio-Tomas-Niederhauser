@@ -1,0 +1,587 @@
+#fotoNombre{
+    width: 100%;
+    height: 590px;
+    flex-wrap: wrap;
+    padding: 0px;
+    align-items: center;
+    .foto {
+        height: 400px;
+        width: 30%;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 50px 35% 10px 35%;
+    }
+    #nombre {
+        text-align: center;
+        color: rgb(126, 119, 119); 
+        font-size: 40px;
+        margin-top: 20px;
+    }
+}
+    
+#frontend{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(126, 119, 119);
+    background-color: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+    flex-direction: row;
+}
+
+div ul li{
+    list-style-type:  none;
+}
+
+.botonesIndice{
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-color:rgb(126, 119, 119);
+    border-radius: 10%;
+    width: 280px;
+    height: 100px;
+    text-align: center;
+    border:rgba(126, 119, 119, 0.575) solid 2px;
+    margin: 30px;
+    &:hover{
+        border: 2px solid  rgba(126, 119, 119, 0.575);
+        background-color:rgb(167, 157, 157);
+        color: white;
+    }
+}
+
+#grilla {
+    margin: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 10em 10em 10em; 
+    grid-template-areas:
+        "sectionHtml sectionHtml asideCss"
+        "sectionJavaScript sectionJavaScript asideCss"
+        "sectionReact sectionReact asideC";
+    grid-row-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    .sectionHtml{
+        grid-area: sectionHtml;
+    }
+    .asideCss{
+        grid-area: asideCss;
+    }
+    .sectionJavaScript{
+        grid-area: sectionJavaScript;
+    }
+    .sectionReact{
+        grid-area: sectionReact;
+    }
+    .asideC{
+        grid-area: asideC;
+    }
+    .botonesIndice2{
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+    background-color:rgb(126, 119, 119);
+    border-radius: 10%;
+    border:rgba(126, 119, 119, 0.575) solid 2px;
+    position: absolute;
+    &:hover{
+        border: 2px solid  rgba(126, 119, 119, 0.575);
+        background-color:rgb(167, 157, 157);
+        }
+    }
+    section img{
+        height: 100%;
+    }
+    aside img{
+        height: 100%;
+    }
+    #columnaCss{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        font-size: 60px;
+        text-align: center;
+        margin: 0 80px 0 80px;
+    }
+    #columnaCssImg{
+        height: 80%;
+        margin: 0 20% 0 20%;
+    }
+    #Cpp{
+        width: 300px;
+        text-align: center;
+        margin: 20px;
+    }
+    #html{
+        width: 700px;
+        text-align: center;
+        margin: 20px;
+    }
+    #JS{
+        width: 600px;
+        text-align: center;
+        margin: 20px;
+    }
+}
+    
+.estudios{
+    margin: 5px auto 5px auto;
+    padding: 15PX;
+    width: 95%;
+    height: 500px;
+    font-size: 45px;
+    color: rgb(126, 119, 119);
+    margin: 20px;
+    li{
+        margin: 10px 0 10px 0;
+    }
+}
+    
+#parrafo{
+    width: 90%;
+    height: 450px;
+    padding: 20px;
+    font-size:x-large;
+    margin: 20px;
+}
+    
+footer{
+    width: 98%;
+    margin: auto;
+    margin-top: 100px;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(126, 119, 119, 0.575);
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        width: 100%;
+    }
+    a{
+        width: 30px;
+        height: 30px;
+        opacity: 65%;
+    &:hover{
+        opacity: 100%;
+    }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+#contenedorFotografiaMusica{
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    #containerFotografia{
+        width: 650px;
+        height: 490px;
+        margin: 10px;
+        border: 2px solid rgb(126, 119, 119);
+        #carrousel{
+            margin: 2px;
+            width: 640px;
+            height: 428px;
+            border: 2px solid rgb(126, 119, 119);
+            object-fit: contain;
+        }
+        .divfotografia{
+            margin: 2px;
+            width: 640px;
+            height: 50px;
+            border: 2px solid rgb(126, 119, 119);
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    #containerMusica{
+        margin: 10px;
+        width: 650px;
+        height: 490px;
+        border: 2px solid rgb(126, 119, 119);
+    }
+    .divMusica1{
+        margin: 2px;
+        width: 640px;
+        height: 212px;
+        border: 2px solid rgb(126, 119, 119);
+        display: flex;
+        flex-direction: row;
+        p{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 60px;
+        }
+        img{
+            margin: 5px;
+            height: 200px;
+        }
+        }
+    .divMusica{
+        margin: 2px;
+        width: 640px;
+        height: 50px;
+        border: 2px solid rgb(126, 119, 119);
+        display: flex;
+        flex-direction: row;
+        h3{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        }
+        a svg{
+            margin: 3px;
+            height: 40px;
+        }
+    }
+}
+
+
+
+
+
+
+
+    
+.tituloHome{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a{
+            width: 30px;
+            height: 30px;
+            padding: 20px;
+        }
+    }
+    
+    
+    .titulo{
+        margin: 15px auto 5px auto;
+        width: 50%;
+        font-size: 50px;
+        text-align: center;
+        color: rgb(126, 119, 119);
+        margin: 40px;
+    }
+    
+    #botonJS{
+        font-size: 40px;
+    }
+    
+    
+    .foto2 {
+        margin-top: 30px;
+        height: 450px;
+        width: 50%;
+        padding-left: 50%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -10;
+        opacity: 85%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+@media only screen and (max-width: 420px){
+    #fotoNombre{
+        width: 100%;
+        height: 550px;
+        margin-bottom: 20px;
+        .foto {
+            height: 350px;
+            width: 90%;
+            margin: 20px;
+        }
+    }
+
+#frontend{
+    margin-bottom: 60px;
+}
+
+.flex-container{
+    height: 400px;
+}	
+
+#grilla {
+    margin: 50px 0 50px 0;
+    display: block;
+    .botonesIndice2{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(126, 119, 119);
+        border-radius: 10%;
+        border:rgba(126, 119, 119, 0.575) solid 2px;
+        position: absolute;
+        margin-top: 20px;
+        &:hover{
+            border: 2px solid  rgba(126, 119, 119, 0.575);
+            background-color:rgb(167, 157, 157);
+        }
+    }
+    section img{
+        height: 40px;
+        margin: 10px;
+    }
+    aside img{
+        height: 80px;
+        margin: 10px;
+    }
+    .sectionHtml{
+        padding: 20px;
+    }
+    #html{
+        text-align: center;
+        margin: 10px;
+        padding: 0px;
+        width: 150px;
+    }
+    #JS{
+        width: 180px;
+        text-align: center;
+        margin: 30px 10px 10px 0px;
+        font-size: 25px;
+    }
+    .asideCss{
+        display: flex;
+    }
+    #columnaCss{
+        width: 150px;
+        height: 80px;
+        font-size: 60px;
+        text-align: center;
+        margin: 5px 20px 5px 100px;
+        padding: 0px;
+    }
+    #columnaCssImg{
+        height: 70px;
+        margin: 10px;
+    }
+    #Cpp{
+        width: 100px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.estudios{
+    height: 300px;
+    font-size: 20px;
+    color: rgb(126, 119, 119);
+    margin: 0px;
+}
+
+#parrafo{
+    width: 99%;
+    height: 930px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#contenedorFotografiaMusica{
+    display: block;
+    height: 850px;
+    #containerFotografia{
+        width: 98%;
+        height: 320px;
+        margin: 0px;
+        #carrousel{
+            width: 98%;
+            height: 248px;
+        }
+        .divfotografia{
+            width: 100%;
+            margin: 0;
+        }
+    }
+    #containerMusica{
+        margin: 0;
+        width: 98%;
+    }
+    .divMusica1{
+        width: 100%;
+    }
+    .divMusica1 p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .divMusica{
+        margin: 2px;
+        width: 100%;
+    }
+}
+}
+
+
+@media only screen and (min-width: 421px) and (max-width: 1023px){
+    #fotoNombre{
+        width: 100%;
+        height: 900px;
+        margin-bottom: 20px;
+        .foto {
+            height: 600px;
+            width: 600px;
+            margin: 20px 15% 0 15%;
+        }
+        #nombre{
+            font-size: 70px;
+        }     
+    }
+
+    #frontend{
+        margin-bottom: 0px;
+    }
+    
+    .flex-container{
+        height: 400px;
+        margin-top: 20px;
+    }	
+
+    #grilla {
+        margin: 50px 0 50px 0;
+        display: block;
+        .botonesIndice2{
+            text-decoration: none;
+            color: white;
+            font-size: 50px;
+            background-color:rgb(126, 119, 119);
+            border-radius: 10%;
+            border:rgba(126, 119, 119, 0.575) solid 2px;
+            position: absolute;
+            margin-top: 20px;
+            &:hover{
+                border: 2px solid  rgba(126, 119, 119, 0.575);
+                background-color:rgb(167, 157, 157);
+            }
+        }
+        section img{
+                height: 80px;
+                margin: 10px;
+        }
+        aside img{
+                height: 80px;
+                margin: 10px;
+        }
+        .sectionHtml{
+                padding: 20px;
+        }
+        #html{
+                text-align: center;
+                margin: 10px;
+                padding: 0px;
+                width: 300px;
+        }
+        #JS{
+                width: 360px;
+                text-align: center;
+                margin: 20px 10px 10px 0px;
+                font-size: 40px;
+        }
+        .asideCss{
+                display: flex;
+        }
+        #columnaCss{
+                width: 150px;
+                height: 80px;
+                font-size: 60px;
+                text-align: center;
+                margin: 5px 20px 5px 100px;
+                padding: 0px;
+        }
+        #columnaCssImg{
+                height: 70px;
+                margin: 10px;
+        }
+        #Cpp{
+                width: 100px;
+                text-align: center;
+                margin: 10px;
+        }
+    }
+
+    .estudios{
+        height: 400px;
+        font-size: 30px;
+        margin: 0px;
+    }
+    
+    #parrafo{
+        width: 99%;
+        height: 650px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    
+    #contenedorFotografiaMusica{
+        display: block;
+        height: 1040px;
+        #containerFotografia{
+            width: 100%;
+            height: 600px;
+            margin: 0px;
+            #carrousel{
+                width: 100%;
+                height: 540px;
+            }
+            .divfotografia{
+                width: 100%;
+                margin: 0;
+            }
+        }
+        #containerMusica{
+            margin: 0;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .divMusica1{
+        width: 100%;
+        }
+    
+        .divMusica1 p{
+            text-align: center;
+            font-size: 30px;
+            padding-left: 40px;
+        }
+        .divMusica{
+            margin: 2px;
+            width: 100%;
+        }
+
+    }
+    
+    }
+    
+    @media only screen and (min-width: 1024px){
+    
+    }
