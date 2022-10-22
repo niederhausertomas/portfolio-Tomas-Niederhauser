@@ -1,0 +1,31 @@
+.botonesIndice{
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-color:rgb(126, 119, 119);
+    border-radius: 10%;
+    width: 280px;
+    height: 100px;
+    text-align: center;
+    border:rgba(126, 119, 119, 0.575) solid 2px;
+    margin: 30px;
+    &:hover{
+        border: 2px solid  rgba(126, 119, 119, 0.575);
+        background-color:rgb(167, 157, 157);
+        color: white;
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+    flex-direction: row;
+}
+
+div ul li{
+    list-style-type:  none;
+}

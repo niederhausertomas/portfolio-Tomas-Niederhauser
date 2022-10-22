@@ -1,0 +1,75 @@
+#grilla {
+    margin: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 10em 10em 10em; 
+    grid-template-areas:
+        "sectionHtml sectionHtml asideCss"
+        "sectionJavaScript sectionJavaScript asideCss"
+        "sectionReact sectionReact asideC";
+    grid-row-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    .sectionHtml{
+        grid-area: sectionHtml;
+    }
+    .asideCss{
+        grid-area: asideCss;
+    }
+    .sectionJavaScript{
+        grid-area: sectionJavaScript;
+    }
+    .sectionReact{
+        grid-area: sectionReact;
+    }
+    .asideC{
+        grid-area: asideC;
+    }
+    .botonesIndice2{
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+    background-color:rgb(126, 119, 119);
+    border-radius: 10%;
+    border:rgba(126, 119, 119, 0.575) solid 2px;
+    position: absolute;
+    &:hover{
+        border: 2px solid  rgba(126, 119, 119, 0.575);
+        background-color:rgb(167, 157, 157);
+        }
+    }
+    section img{
+        height: 100%;
+    }
+    aside img{
+        height: 100%;
+    }
+    #columnaCss{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        font-size: 60px;
+        text-align: center;
+        margin: 0 80px 0 80px;
+    }
+    #columnaCssImg{
+        height: 80%;
+        margin: 0 20% 0 20%;
+    }
+    #Cpp{
+        width: 300px;
+        text-align: center;
+        margin: 20px;
+    }
+    #html{
+        width: 700px;
+        text-align: center;
+        margin: 20px;
+    }
+    #JS{
+        width: 600px;
+        text-align: center;
+        margin: 20px;
+    }
+}

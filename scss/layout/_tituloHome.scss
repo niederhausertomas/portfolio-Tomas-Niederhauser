@@ -1,0 +1,12 @@
+.tituloHome{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    a {
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+    }
+}

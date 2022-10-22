@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
 #fotoNombre {
   width: 100%;
   height: 590px;
@@ -26,16 +35,6 @@
   color: #7e7777;
   background-color: white; }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 300px;
-  flex-direction: row; }
-
-div ul li {
-  list-style-type: none; }
-
 .botonesIndice {
   flex-direction: row;
   flex-wrap: wrap;
@@ -53,6 +52,16 @@ div ul li {
     border: 2px solid rgba(126, 119, 119, 0.575);
     background-color: #a79d9d;
     color: white; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 300px;
+  flex-direction: row; }
+
+div ul li {
+  list-style-type: none; }
 
 #grilla {
   margin: 50px 0 50px 0;
@@ -130,27 +139,6 @@ div ul li {
   font-size: x-large;
   margin: 20px; }
 
-footer {
-  width: 98%;
-  margin: auto;
-  margin-top: 100px;
-  height: 90px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  border: 2px solid rgba(126, 119, 119, 0.575); }
-  footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%; }
-  footer a {
-    width: 30px;
-    height: 30px;
-    opacity: 65%; }
-    footer a:hover {
-      opacity: 100%; }
-
 #contenedorFotografiaMusica {
   width: 100%;
   height: 460px;
@@ -208,6 +196,27 @@ footer {
       margin: 3px;
       height: 40px; }
 
+footer {
+  width: 98%;
+  margin: auto;
+  margin-top: 100px;
+  height: 90px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(126, 119, 119, 0.575); }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; }
+  footer a {
+    width: 30px;
+    height: 30px;
+    opacity: 65%; }
+    footer a:hover {
+      opacity: 100%; }
+
 .tituloHome {
   width: 100%;
   height: 60px;
@@ -226,21 +235,6 @@ footer {
   text-align: center;
   color: #7e7777;
   margin: 40px; }
-
-#botonJS {
-  font-size: 40px; }
-
-.foto2 {
-  margin-top: 30px;
-  height: 450px;
-  width: 50%;
-  padding-left: 50%;
-  object-fit: cover;
-  position: absolute;
-  z-index: -10;
-  opacity: 85%;
-  padding-bottom: 0;
-  margin-bottom: 0; }
 
 @media only screen and (max-width: 420px) {
   #fotoNombre {
