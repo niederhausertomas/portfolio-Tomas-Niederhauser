@@ -1,3 +1,17 @@
+#lenguajes{    
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	position: relative;
+    background-image: url("../../imagenes/IMG_5617.JPG");}
+
 #grilla {
     margin: 50px 0 50px 0;
     display: grid;
@@ -28,21 +42,21 @@
     .botonesIndice2{
     text-decoration: none;
     color: white;
-    font-size: 100px;
-    background-color:rgb(126, 119, 119);
-    border-radius: 10%;
-    border:rgba(126, 119, 119, 0.575) solid 2px;
+    font-size: 80px;
+    background-color: $colorDos;
+    border-radius: 10px;
+    border:$colorUno solid 2px;
     position: absolute;
+    width: 50%;
     &:hover{
-        border: 2px solid  rgba(126, 119, 119, 0.575);
-        background-color:rgb(167, 157, 157);
+        background-color: $colorUno;
         }
     }
     section img{
-        height: 100%;
+        height: 70%;
     }
     aside img{
-        height: 100%;
+        height: 70%;
     }
     #columnaCss{
         display: flex;

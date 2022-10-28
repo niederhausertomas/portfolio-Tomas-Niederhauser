@@ -1,3 +1,19 @@
+#hobbies{    
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	position: relative;
+    background-image: url("../../imagenes/IMG_6948.JPG");}
+
+
+
 #fotoNombre{
     width: 100%;
     height: 550px;
@@ -13,8 +29,9 @@
     }
     #nombre {
         text-align: center;
-        color: rgb(126, 119, 119); 
+        color: $colorUno;
         font-size: 40px;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

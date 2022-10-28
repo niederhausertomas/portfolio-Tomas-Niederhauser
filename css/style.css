@@ -4,8 +4,30 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
+html {
+  scroll-behavior: smooth; }
+
 * {
   font-family: 'Roboto', sans-serif; }
+
+.nav-item:hover {
+  padding-top: 5px;
+  margin-bottom: -5px;
+  transition: 1s; }
+
+#hobbies {
+  padding: 40px;
+  width: 100%;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../imagenes/IMG_6948.JPG"); }
 
 #fotoNombre {
   width: 100%;
@@ -23,13 +45,13 @@
     text-align: center;
     color: #7e7777;
     font-size: 40px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 #frontend {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 40px;
   width: 100%;
-  height: 100px;
+  height: 150px;
   font-size: 50px;
   text-align: center;
   color: white;
@@ -49,32 +71,49 @@
 	position: relative
 */
 .botonesIndice {
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   text-decoration: none;
-  color: white;
-  font-size: 50px;
-  background-color: #7e7777;
-  border-radius: 10%;
+  color: #7e7777;
+  font-size: 25px;
   width: 280px;
   height: 100px;
-  text-align: center;
-  border: rgba(126, 119, 119, 0.575) solid 2px;
-  margin: 30px; }
+  align-items: center;
+  margin: 30px;
+  width: 100%; }
   .botonesIndice:hover {
-    border: 2px solid rgba(126, 119, 119, 0.575);
-    background-color: #a79d9d;
-    color: white; }
+    text-decoration: none;
+    color: #7e7777;
+    margin-top: 40px;
+    transition: 0.5s; }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  height: 300px;
-  flex-direction: row; }
+  height: 500px;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 div ul li {
   list-style-type: none; }
+
+#lenguajes {
+  padding: 40px;
+  width: 100%;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../imagenes/IMG_5617.JPG"); }
 
 #grilla {
   margin: 50px 0 50px 0;
@@ -98,18 +137,18 @@ div ul li {
   #grilla .botonesIndice2 {
     text-decoration: none;
     color: white;
-    font-size: 100px;
-    background-color: #7e7777;
-    border-radius: 10%;
-    border: rgba(126, 119, 119, 0.575) solid 2px;
-    position: absolute; }
+    font-size: 80px;
+    background-color: #a79d9d;
+    border-radius: 10px;
+    border: #7e7777 solid 2px;
+    position: absolute;
+    width: 50%; }
     #grilla .botonesIndice2:hover {
-      border: 2px solid rgba(126, 119, 119, 0.575);
-      background-color: #a79d9d; }
+      background-color: #7e7777; }
   #grilla section img {
-    height: 100%; }
+    height: 70%; }
   #grilla aside img {
-    height: 100%; }
+    height: 70%; }
   #grilla #columnaCss {
     display: flex;
     flex-direction: column;
@@ -134,23 +173,52 @@ div ul li {
     text-align: center;
     margin: 20px; }
 
+#studies {
+  padding: 40px;
+  width: 100%;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../imagenes/IMG_5647.JPG"); }
+
 .estudios {
   margin: 5px auto 5px auto;
-  padding: 15PX;
+  padding: 25PX;
   width: 95%;
-  height: 500px;
-  font-size: 45px;
+  height: 550px;
+  font-size: 35px;
   color: #7e7777;
   margin: 20px; }
   .estudios li {
-    margin: 10px 0 10px 0; }
+    margin: 40px 0 20px 0; }
+
+#about {
+  padding: 40px;
+  width: 100%;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../imagenes/IMG_5968.JPG"); }
 
 #parrafo {
   width: 90%;
-  height: 450px;
-  padding: 20px;
+  height: 550px;
+  padding: 25px;
   font-size: x-large;
-  margin: 20px; }
+  margin: 25px;
+  color: #7e7777; }
 
 #contenedorFotografiaMusica {
   width: 100%;
@@ -261,9 +329,11 @@ footer {
   #frontend {
     margin-bottom: 20px;
     font-size: 40px;
-    height: 140px; }
+    height: 160px; }
   .flex-container {
-    height: 400px; }
+    height: 400px;
+    margin: 0;
+    padding: 0; }
   #grilla {
     margin: 50px 0 50px 0;
     display: block; }
