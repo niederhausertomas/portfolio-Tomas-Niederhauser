@@ -27,7 +27,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("/imagenes/IMG_6948.jpg"); }
+  background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_6948.jpg?raw=true"); }
 
 #fotoNombre {
   width: 100%;
@@ -113,7 +113,7 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("/imagenes/IMG_5617.JPG"); }
+  background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5617.jpg?raw=true"); }
 
 #grilla {
   margin: 50px 0 50px 0;
@@ -185,7 +185,7 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("/imagenes/IMG_5647.JPG"); }
+  background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5647.jpg?raw=true"); }
 
 .estudios {
   margin: 5px auto 5px auto;
@@ -210,7 +210,7 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("/imagenes/IMG_5968.JPG"); }
+  background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5968.JPG?raw=true"); }
 
 #parrafo {
   width: 90%;
