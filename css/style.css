@@ -27,7 +27,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../../imagenes/IMG_6948.JPG"); }
+  background-image: url("/imagenes/IMG_6948.jpg"); }
 
 #fotoNombre {
   width: 100%;
@@ -60,7 +60,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../../imagenes/IMG_57421.jpg"); }
+  background-image: url("/imagenes/IMG_57421.jpg"); }
 
 /* 	background-attachment: fixed;
 	background-position: center;
@@ -113,7 +113,7 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../../imagenes/IMG_5617.JPG"); }
+  background-image: url("/imagenes/IMG_5617.JPG"); }
 
 #grilla {
   margin: 50px 0 50px 0;
@@ -185,7 +185,7 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../../imagenes/IMG_5647.JPG"); }
+  background-image: url("/imagenes/IMG_5647.JPG"); }
 
 .estudios {
   margin: 5px auto 5px auto;
@@ -210,7 +210,7 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../../imagenes/IMG_5968.JPG"); }
+  background-image: url("/imagenes/IMG_5968.JPG"); }
 
 #parrafo {
   width: 90%;
