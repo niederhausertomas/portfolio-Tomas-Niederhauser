@@ -19,6 +19,9 @@ footer{
         opacity: 65%;
     &:hover{
         opacity: 100%;
+        padding-top: 5px;
+        margin-bottom: -5px;
+        transition: 1s;
     }
     }
     

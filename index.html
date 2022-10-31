@@ -5,10 +5,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Tomas Niederhauser</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-	
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!--SEO-->
 		<meta name="keywords"  content="Junior Front end developer, C++, HTML, CSS, JavaScript, React.js">
     	<meta name="description" content="Soy Junior Front end developer. Tengo conocimientos en los siguientes lenguajes de programación: C++, HTML, CSS, JavaScript y React.js. I'm a junior front-end developer. I have knowledge in the following programming languages: C++, HTML, CSS, JavaScript and React.js.">
@@ -73,12 +73,12 @@
 				Junior Front-end Developer 
 			</h1>
 			<hr/>
-			<div>
+			<div >
 				<ul class="flex-container">
-					<li><a class="botonesIndice" href="./pages/languages.html">Languages</a></li>
-					<li><a class="botonesIndice" href="./pages/studies.html">Studies</a></li>
-					<li><a class="botonesIndice" href="./pages/aboutMe.html">About me</a></li>
-					<li><a class="botonesIndice" href="./pages/hobbies.html">Hobbies</a></li>
+					<li><a class="botonesIndice" data-aos="fade-right" data-aos-duration="3000" href="./pages/languages.html">Languages</a></li>
+					<li><a class="botonesIndice" data-aos="fade-down-right" data-aos-duration="3000" href="./pages/studies.html">Studies</a></li>
+					<li><a class="botonesIndice" data-aos="fade-down-left" data-aos-duration="3000" href="./pages/aboutMe.html">About me</a></li>
+					<li><a class="botonesIndice" data-aos="fade-up-left" data-aos-duration="3000" href="./pages/hobbies.html">Hobbies</a></li>
 				</ul>
 			</div>
 
@@ -115,11 +115,11 @@
 			</h2>
 			<div>
 				<ul class="estudios">
-				  <li>UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACION. PRIMER AÑO.</li>
-				  <li>CODER HOUSE - DESARROLLO WEB.</li>
-				  <li>CODER HOUSE - JAVASCRIPT.</li>
-				  <li>CODER HOUSE - REACT.JS.</li>
-				  <li>UBA - ABOGADO.</li>
+				  <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">UTN - TECNICATURA UNIVERSITARIA EN PROGRAMACION. PRIMER AÑO.</li>
+				  <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - DESARROLLO WEB.</li>
+				  <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - JAVASCRIPT.</li>
+				  <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - REACT.JS.</li>
+				  <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">UBA - ABOGADO.</li>
 				  </ul>
 			</div>
 
@@ -235,6 +235,10 @@
 				  </svg></a>
 			</ul>	
 		</footer>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		  </script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 	</body>
 	</html>

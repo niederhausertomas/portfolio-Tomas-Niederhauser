@@ -296,7 +296,10 @@ footer {
     height: 30px;
     opacity: 65%; }
     footer a:hover {
-      opacity: 100%; }
+      opacity: 100%;
+      padding-top: 5px;
+      margin-bottom: -5px;
+      transition: 1s; }
 
 .tituloHome {
   width: 100%;
