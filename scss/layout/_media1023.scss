@@ -27,62 +27,91 @@
         display: block;
         .botonesIndice2{
             text-decoration: none;
-            color: white;
-            font-size: 50px;
-            background-color:rgb(126, 119, 119);
-            border-radius: 10%;
-            border:rgba(126, 119, 119, 0.575) solid 2px;
+            color: $colorUno;
+            font-size: 40px;
+            width: 280px;
+            height: 100px;
+            align-items: center;
+            text-align: center;
+            margin: 30px;
+            background-color: white;
+            border: none;
             position: absolute;
             margin-top: 20px;
             &:hover{
-                border: 2px solid  rgba(126, 119, 119, 0.575);
-                background-color:rgb(167, 157, 157);
+                border: none;
+                background-color:white;
             }
         }
         section img{
-                height: 80px;
-                margin: 10px;
+            height: 60px;
+            margin: 30px;
         }
         aside img{
-                height: 80px;
-                margin: 10px;
+            height: 60px;
+            margin: 30px;
         }
         .sectionHtml{
-                padding: 20px;
+            padding: 20px;
         }
         #html{
-                text-align: center;
-                margin: 10px;
-                padding: 0px;
-                width: 300px;
+            text-align: center;
+            margin: 10px;
+            margin-top: 35px;
+            padding: 0px;
+            width: 20%;
+            height: 50px;
         }
         #JS{
-                width: 360px;
-                text-align: center;
-                margin: 20px 10px 10px 0px;
-                font-size: 40px;
+            width: 220px;
+            height: 50px;
+            text-align: center;
+            margin: 30px 10px 10px 0px;
+            font-size: 35px;
         }
         .asideCss{
-                display: flex;
+            display: flex;
         }
         #columnaCss{
-                width: 150px;
-                height: 80px;
-                font-size: 60px;
-                text-align: center;
-                margin: 5px 20px 5px 100px;
-                padding: 0px;
+            width: 150px;
+            height: 80px;
+            font-size: 35px;
+            text-align: center;
+            margin: 5px 0px 5px 140px;
+            padding: 10px;
         }
         #columnaCssImg{
-                height: 70px;
-                margin: 10px;
+            height: 70px;
+            margin: 10px;
+            margin-left: 50px;
+        }
+        .asideC{
+            img{
+                margin-left: 60px;
+            }
         }
         #Cpp{
-                width: 100px;
-                text-align: center;
-                margin: 10px;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            font-size: 35px;
+            margin: 40px 10px 5px 27px;
+        }
+        .sectionReact{
+          img{
+            margin-left: 60px;
+            margin-right: 10px;
+          }  
+          a{
+            height: 50px;
+            width: 30%;
+            margin-top: 30px;
+            margin-left: 0px;
+            font-size: 35px;
+          }
         }
     }
+    
 
     .estudios{
         height: 400px;
