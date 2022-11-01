@@ -443,11 +443,10 @@ footer {
       font-size: 20px; }
     #contenedorFotografiaMusica .divMusica {
       margin: 2px;
-      width: 100%; } }
-
-footer {
-  margin-top: 0px;
-  width: 100%; }
+      width: 100%; }
+  footer {
+    margin-top: 0px;
+    width: 100%; } }
 
 @media only screen and (min-width: 421px) and (max-width: 1023px) {
   #fotoNombre {
