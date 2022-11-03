@@ -22,25 +22,27 @@
             border: 2px solid rgb(126, 119, 119);
             text-align: center;
             padding-top: 10px;
+            color: $colorUno;
         }
     }
     #containerMusica{
         margin: 10px;
         width: 650px;
         height: 490px;
-        border: 2px solid rgb(126, 119, 119);
+        border: 2px solid $colorUno;
     }
     .divMusica1{
         margin: 2px;
         width: 640px;
         height: 212px;
-        border: 2px solid rgb(126, 119, 119);
+        border: 2px solid $colorUno;
         display: flex;
         flex-direction: row;
         p{
             text-align: center;
             font-size: 30px;
             margin-top: 60px;
+            color: $colorUno;
         }
 
         .foto1{
@@ -59,6 +61,7 @@
         margin-top: 10px;
         width: 100%;
         text-align: center;
+        color: $colorUno;
         }
         a svg{
             margin: 3px;

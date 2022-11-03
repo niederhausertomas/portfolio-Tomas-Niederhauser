@@ -234,7 +234,8 @@ div ul li {
       height: 50px;
       border: 2px solid #7e7777;
       text-align: center;
-      padding-top: 10px; }
+      padding-top: 10px;
+      color: #7e7777; }
   #contenedorFotografiaMusica #containerMusica {
     margin: 10px;
     width: 650px;
@@ -250,7 +251,8 @@ div ul li {
     #contenedorFotografiaMusica .divMusica1 p {
       text-align: center;
       font-size: 30px;
-      margin-top: 60px; }
+      margin-top: 60px;
+      color: #7e7777; }
     #contenedorFotografiaMusica .divMusica1 .foto1 {
       margin: 5px;
       height: 200px; }
@@ -264,7 +266,8 @@ div ul li {
     #contenedorFotografiaMusica .divMusica h3 {
       margin-top: 10px;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      color: #7e7777; }
     #contenedorFotografiaMusica .divMusica a svg {
       margin: 3px;
       height: 40px; }
