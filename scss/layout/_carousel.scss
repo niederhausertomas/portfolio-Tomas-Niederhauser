@@ -1,0 +1,36 @@
+#proyects{
+    color: $colorUno;
+}
+
+
+.proyectsContainer{
+
+    width: 100%;
+    margin-top: 50px;
+
+    .card{
+        height: 350px;
+        width: 100px;
+        margin: 20px 10px 50px 10px;
+    }
+
+    .card:hover{
+        margin-top: -10px;
+        transition: 1s;
+    }
+
+    .card-title{
+        font-weight: bolder;
+        color: $colorUno;
+    }
+
+    .card-text{
+        color: $colorUno;
+    }
+
+    .btn{
+        bottom: 5px;
+    }
+}
+
+
