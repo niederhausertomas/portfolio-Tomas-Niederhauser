@@ -18,7 +18,7 @@
 #frontend{
     margin-bottom: 20px;
     font-size: 40px;
-    height: 180px;
+    height: 300px;
 }
 
 .flex-container{
@@ -27,96 +27,12 @@
     padding: 0;
 }	
 
-#grilla {
-    margin: 50px 0 50px 0;
-    display: block;
-    .botonesIndice2{
-        text-decoration: none;
-        color: $colorUno;
-        font-size: 25px;
-        width: 280px;
-        height: 100px;
-        align-items: center;
-        text-align: center;
-        margin: 30px;
-        background-color: white;
-        border: none;
-        position: absolute;
-        margin-top: 20px;
-        &:hover{
-            border: none;
-            background-color:white;
-        }
-    }
-    section img{
-        height: 60px;
-        margin: 30px;
-    }
-    aside img{
-        height: 60px;
-        margin: 30px;
-    }
-    .sectionHtml{
-        padding: 20px;
-    }
-    #html{
-        text-align: center;
-        margin: 10px;
-        margin-top: 40px;
-        padding: 0px;
-        width: 50%;
-        height: 50px;
-    }
-    #JS{
-        width: 180px;
-        height: 50px;
-        text-align: center;
-        margin: 40px 10px 10px 0px;
-        font-size: 25px;
-    }
-    .asideCss{
-        display: flex;
-    }
-    #columnaCss{
-        width: 150px;
-        height: 80px;
-        font-size: 40px;
-        text-align: center;
-        margin: 5px 0px 5px 170px;
-        padding: 10px;
-    }
-    #columnaCssImg{
-        height: 70px;
-        margin: 10px;
-        margin-left: 50px;
-    }
-    .asideC{
-        img{
-            margin-left: 60px;
-        }
-    }
-    #Cpp{
-        width: 100px;
-        height: 50px;
-        text-align: center;
-        font-size: 30px;
-        margin: 40px 10px 5px 50px;
-    }
-    .sectionReact{
-      img{
-        margin-left: 60px;
-        margin-right: 10px;
-      }  
-      a{
-        height: 50px;
-        width: 40%;
-        margin-top: 40px;
-      }
-    }
+.containerIconos{
+    height: 800px;
 }
 
 .estudios{
-    height: 520px;
+    height: 650px;
     font-size: 20px;
     color: rgb(126, 119, 119);
     margin: 0px;
@@ -167,7 +83,6 @@
 footer{
     margin-top: 0px;
     width: 100%;
-
 }
 .nav-item:hover{
     padding-top: 0px;

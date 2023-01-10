@@ -12,78 +12,32 @@
 	position: relative;
     background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5617.jpg?raw=true");}
 
-#grilla {
-    margin: 50px 0 50px 0;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 10em 10em 10em; 
-    grid-template-areas:
-        "sectionHtml sectionHtml asideCss"
-        "sectionJavaScript sectionJavaScript asideCss"
-        "sectionReact sectionReact asideC";
-    grid-row-gap: 1em;
-    justify-items: stretch;
-    align-items: stretch;
-    .sectionHtml{
-        grid-area: sectionHtml;
-    }
-    .asideCss{
-        grid-area: asideCss;
-    }
-    .sectionJavaScript{
-        grid-area: sectionJavaScript;
-    }
-    .sectionReact{
-        grid-area: sectionReact;
-    }
-    .asideC{
-        grid-area: asideC;
-    }
-    .botonesIndice2{
-    text-decoration: none;
-    color: white;
-    font-size: 80px;
-    background-color: $colorDos;
-    border-radius: 10px;
-    border:$colorUno solid 2px;
-    position: absolute;
-    width: 50%;
-    &:hover{
-        background-color: $colorUno;
-        }
-    }
-    section img{
-        height: 70%;
-    }
-    aside img{
-        height: 70%;
-    }
-    #columnaCss{
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        height: 80px;
-        font-size: 60px;
-        text-align: center;
-        margin: 0 80px 0 80px;
-    }
-    #columnaCssImg{
-        height: 80%;
-        margin: 0 20% 0 20%;
-    }
-    #Cpp{
-        width: 300px;
-        text-align: center;
-        margin: 20px;
-    }
-    #html{
-        width: 700px;
-        text-align: center;
-        margin: 20px;
-    }
-    #JS{
-        width: 600px;
-        text-align: center;
-        margin: 20px;
-    }
+.containerIconos{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.iconos{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.icono{
+        height: 200px;
+        width: 100px;
+}
+
+.icono img{
+    height: 50px;
+    margin-top:75px;
+    margin-bottom: 75px;
+}
+
+.icono img:hover{
+    height: 75px;
+    margin-top: 60px;
+    transition: 1s;
 }

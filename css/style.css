@@ -148,63 +148,30 @@ div ul li {
   position: relative;
   background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5617.jpg?raw=true"); }
 
-#grilla {
-  margin: 50px 0 50px 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 10em 10em 10em;
-  grid-template-areas: "sectionHtml sectionHtml asideCss" "sectionJavaScript sectionJavaScript asideCss" "sectionReact sectionReact asideC";
-  grid-row-gap: 1em;
-  justify-items: stretch;
-  align-items: stretch; }
-  #grilla .sectionHtml {
-    grid-area: sectionHtml; }
-  #grilla .asideCss {
-    grid-area: asideCss; }
-  #grilla .sectionJavaScript {
-    grid-area: sectionJavaScript; }
-  #grilla .sectionReact {
-    grid-area: sectionReact; }
-  #grilla .asideC {
-    grid-area: asideC; }
-  #grilla .botonesIndice2 {
-    text-decoration: none;
-    color: white;
-    font-size: 80px;
-    background-color: #a79d9d;
-    border-radius: 10px;
-    border: #7e7777 solid 2px;
-    position: absolute;
-    width: 50%; }
-    #grilla .botonesIndice2:hover {
-      background-color: #7e7777; }
-  #grilla section img {
-    height: 70%; }
-  #grilla aside img {
-    height: 70%; }
-  #grilla #columnaCss {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 80px;
-    font-size: 60px;
-    text-align: center;
-    margin: 0 80px 0 80px; }
-  #grilla #columnaCssImg {
-    height: 80%;
-    margin: 0 20% 0 20%; }
-  #grilla #Cpp {
-    width: 300px;
-    text-align: center;
-    margin: 20px; }
-  #grilla #html {
-    width: 700px;
-    text-align: center;
-    margin: 20px; }
-  #grilla #JS {
-    width: 600px;
-    text-align: center;
-    margin: 20px; }
+.containerIconos {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  width: 100%; }
+
+.iconos {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.icono {
+  height: 200px;
+  width: 100px; }
+
+.icono img {
+  height: 50px;
+  margin-top: 75px;
+  margin-bottom: 75px; }
+
+.icono img:hover {
+  height: 75px;
+  margin-top: 60px;
+  transition: 1s; }
 
 #studies {
   padding: 40px;
@@ -225,7 +192,7 @@ div ul li {
   padding: 25PX;
   width: 95%;
   height: 550px;
-  font-size: 35px;
+  font-size: 30px;
   color: #7e7777;
   margin: 20px; }
   .estudios li {
@@ -314,7 +281,7 @@ div ul li {
       height: 40px; }
 
 footer {
-  width: 98%;
+  width: 100%;
   margin: auto;
   margin-top: 50px;
   height: 90px;
@@ -370,81 +337,15 @@ footer {
   #frontend {
     margin-bottom: 20px;
     font-size: 40px;
-    height: 180px; }
+    height: 300px; }
   .flex-container {
     height: 400px;
     margin: 0;
     padding: 0; }
-  #grilla {
-    margin: 50px 0 50px 0;
-    display: block; }
-    #grilla .botonesIndice2 {
-      text-decoration: none;
-      color: #7e7777;
-      font-size: 25px;
-      width: 280px;
-      height: 100px;
-      align-items: center;
-      text-align: center;
-      margin: 30px;
-      background-color: white;
-      border: none;
-      position: absolute;
-      margin-top: 20px; }
-      #grilla .botonesIndice2:hover {
-        border: none;
-        background-color: white; }
-    #grilla section img {
-      height: 60px;
-      margin: 30px; }
-    #grilla aside img {
-      height: 60px;
-      margin: 30px; }
-    #grilla .sectionHtml {
-      padding: 20px; }
-    #grilla #html {
-      text-align: center;
-      margin: 10px;
-      margin-top: 40px;
-      padding: 0px;
-      width: 50%;
-      height: 50px; }
-    #grilla #JS {
-      width: 180px;
-      height: 50px;
-      text-align: center;
-      margin: 40px 10px 10px 0px;
-      font-size: 25px; }
-    #grilla .asideCss {
-      display: flex; }
-    #grilla #columnaCss {
-      width: 150px;
-      height: 80px;
-      font-size: 40px;
-      text-align: center;
-      margin: 5px 0px 5px 170px;
-      padding: 10px; }
-    #grilla #columnaCssImg {
-      height: 70px;
-      margin: 10px;
-      margin-left: 50px; }
-    #grilla .asideC img {
-      margin-left: 60px; }
-    #grilla #Cpp {
-      width: 100px;
-      height: 50px;
-      text-align: center;
-      font-size: 30px;
-      margin: 40px 10px 5px 50px; }
-    #grilla .sectionReact img {
-      margin-left: 60px;
-      margin-right: 10px; }
-    #grilla .sectionReact a {
-      height: 50px;
-      width: 40%;
-      margin-top: 40px; }
+  .containerIconos {
+    height: 800px; }
   .estudios {
-    height: 520px;
+    height: 650px;
     font-size: 20px;
     color: #7e7777;
     margin: 0px; }
@@ -504,78 +405,8 @@ footer {
   .flex-container {
     height: 400px;
     margin-top: 20px; }
-  #grilla {
-    margin: 50px 0 50px 0;
-    display: block; }
-    #grilla .botonesIndice2 {
-      text-decoration: none;
-      color: #7e7777;
-      font-size: 40px;
-      width: 280px;
-      height: 100px;
-      align-items: center;
-      text-align: center;
-      margin: 30px;
-      background-color: white;
-      border: none;
-      position: absolute;
-      margin-top: 20px; }
-      #grilla .botonesIndice2:hover {
-        border: none;
-        background-color: white; }
-    #grilla section img {
-      height: 60px;
-      margin: 30px; }
-    #grilla aside img {
-      height: 60px;
-      margin: 30px; }
-    #grilla .sectionHtml {
-      padding: 20px; }
-    #grilla #html {
-      text-align: center;
-      margin: 10px;
-      margin-top: 35px;
-      padding: 0px;
-      width: 20%;
-      height: 50px; }
-    #grilla #JS {
-      width: 220px;
-      height: 50px;
-      text-align: center;
-      margin: 30px 10px 10px 0px;
-      font-size: 35px; }
-    #grilla .asideCss {
-      display: flex; }
-    #grilla #columnaCss {
-      width: 150px;
-      height: 80px;
-      font-size: 35px;
-      text-align: center;
-      margin: 5px 0px 5px 140px;
-      padding: 10px; }
-    #grilla #columnaCssImg {
-      height: 70px;
-      margin: 10px;
-      margin-left: 50px; }
-    #grilla .asideC img {
-      margin-left: 60px; }
-    #grilla #Cpp {
-      width: 100px;
-      height: 50px;
-      text-align: center;
-      font-size: 35px;
-      margin: 40px 10px 5px 27px; }
-    #grilla .sectionReact img {
-      margin-left: 60px;
-      margin-right: 10px; }
-    #grilla .sectionReact a {
-      height: 50px;
-      width: 30%;
-      margin-top: 30px;
-      margin-left: 0px;
-      font-size: 35px; }
   .estudios {
-    height: 400px;
+    height: 600px;
     font-size: 30px;
     margin: 0px; }
   #parrafo {
@@ -608,4 +439,7 @@ footer {
       padding-left: 40px; }
     #contenedorFotografiaMusica .divMusica {
       margin: 2px;
-      width: 100%; } }
+      width: 100%; }
+  footer {
+    margin-top: 120px;
+    width: 100%; } }
