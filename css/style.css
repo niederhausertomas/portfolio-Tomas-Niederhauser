@@ -83,7 +83,8 @@ html {
   background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_57421.jpg?raw=true"); }
 
 #proyects {
-  color: #7e7777; }
+  color: #7e7777;
+  margin-top: 50px; }
 
 .proyectsContainer {
   width: 100%;
