@@ -17,12 +17,12 @@
     display: flex;
     align-items: center;
     width: 100%;
+    text-align: center
 }
 
 .iconos{
-    margin: 0;
-    padding: 0;
     width: 100%;
+    text-align: center;
 }
 
 .icono{
@@ -34,10 +34,27 @@
     height: 50px;
     margin-top:75px;
     margin-bottom: 75px;
+    margin-left: 20px;
+    display: block;
 }
 
-.icono img:hover{
-    height: 75px;
+.icono:hover img{
+    height: 65px;
     margin-top: 60px;
     transition: 1s;
 }
+
+.icono span {
+    display: none;
+}
+
+.icono:hover span {
+display: block;
+transition: 4s;
+}
+
+.icono span {
+font-size: 14px;
+margin-top: -50px;
+}
+
