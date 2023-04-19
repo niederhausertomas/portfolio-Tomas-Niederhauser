@@ -229,7 +229,7 @@ div ul li {
 
 #parrafo {
   width: 90%;
-  height: 520px;
+  height: 490px;
   padding: 25px;
   font-size: x-large;
   margin: 25px;
@@ -238,7 +238,7 @@ div ul li {
 footer {
   width: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   height: 90px;
   background-color: white;
   display: flex;
@@ -286,9 +286,10 @@ footer {
     height: 525px;
     margin-bottom: 20px; }
     #fotoNombre .foto {
-      height: 350px;
-      width: 90%;
-      margin: 20px; }
+      height: 250px;
+      width: 70%;
+      margin: 30px;
+      margin-top: 90px; }
   #frontend {
     margin-bottom: 20px;
     font-size: 40px;
@@ -355,9 +356,10 @@ footer {
     height: 900px;
     margin-bottom: 20px; }
     #fotoNombre .foto {
-      height: 600px;
-      width: 600px;
-      margin: 20px 15% 0 15%; }
+      height: 280px;
+      width: 40%;
+      margin: 30px;
+      margin-top: 190px; }
     #fotoNombre #nombre {
       font-size: 70px; }
   #frontend {
